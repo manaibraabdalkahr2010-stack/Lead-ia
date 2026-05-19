@@ -1,2 +1,1 @@
-# Lead-ia
-ذكاء إصطناعي جديد سلس 
+<!DOCTYPE html> <html> <head> <title>Lead AI Game Output</title> </head> <body style='background:#050510; color:#fff; text-align:center; font-family:sans-serif;'> <h1>Lead AI Game Engine Pixel Clicker</h1> <p>النقاط المجمعة: <span id='score'>0</span></p> <div id='block' style='width:120px; height:120px; background:#ff007f; margin:auto; cursor:pointer; box-shadow:0 0 20px #ff007f;' onclick='clickGame()'></div> <script> let score = 0; function clickGame() { score++; document.getElementById("score").innerText = score; } </script> </body> </html>#  
